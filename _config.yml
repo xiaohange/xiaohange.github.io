@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+auto: true
+
+markdown: rdiscount
+pygments: true
+paginate: 8
+permalink: /:title
+
+title: 小松github博客
+url: http://qiucarson.github.io
+feed: /atom.xml
+author_info: <a href="http://qiucarson.github.io/">小松博客</a>
