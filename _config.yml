@@ -1,15 +1,4 @@
-litten/BlogBackup
-Code
-Issues 4
-Pull requests 0
-Projects 0
-Wiki
-Pulse
-Graphs
-BlogBackup/_config.yml
-548b751 on 29 Dec 2016
-@litten litten feat: update to yilia ver4.0
-132 lines (115 sloc) 3.73 KB
+
 # Hexo Configuration
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
