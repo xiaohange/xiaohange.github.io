@@ -86,7 +86,7 @@ disqus_shortname:
 #  - hexo-generator-baidu-sitemap
 #  - hexo-generator-sitemap
 
-theme: yilia
+theme: jekyll-theme-cayman
 exclude_generator:
 
 # Deployment
