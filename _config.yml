@@ -1,11 +1,11 @@
 # Basic
-title: 小韩哥的博客
+title: 韩俊强的博客
 subtitle: 个人站
-description: 欢迎来到我的个人站~
+description: 让开发流行起来！
 # 头像里面的标题
 avatarTitle: HaRi
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
+avatarDesc: iOS / Swift
 url: "http://xiaohange.io"
 
 # Comment
@@ -18,7 +18,7 @@ social:
     weibo: 2169425833
     github: xiaohange
     # twitter: 
-    mail: HJQ995@163.com
+    mail: 532167805@qq.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
