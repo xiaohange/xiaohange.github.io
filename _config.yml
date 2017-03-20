@@ -3,20 +3,20 @@ title: 小韩哥的博客
 subtitle: 个人站
 description: 欢迎来到我的个人站~
 # 头像里面的标题
-avatarTitle: XiaoHanGe
+avatarTitle: HaRi
 # 头像里面的描述
 avatarDesc: iOS / 机器学习
-url: "http://XiaoHanGe.io"
+url: "http://xiaohange.io"
 
 # Comment
 comment:
     # disqus: leopard
-    duoshuo: XiaoHanGe 
+    duoshuo: xiaohange 
 
 # Social
 social:
     weibo: 2169425833
-    github: XiaoHanGe
+    github: xiaohange
     # twitter: 
     mail: HJQ995@163.com
 
