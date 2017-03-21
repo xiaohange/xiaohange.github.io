@@ -7,12 +7,12 @@ tag: 经验
 ---  
 ![这里写图片描述](http://img.blog.csdn.net/20170309175824764?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjIwODA3Mzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-##前言
+## 前言
 &emsp;&emsp;  在工作中，我用过的域名有阿里云、西部数码、美橙互联、华夏、主机屋、明网、ename、godaddy、bluehost、hostgator等等，无论从技术出发，还是从售后服务出发，我个人觉得阿里云域名是最佳选择。
 
--------------------
+-----------------------------------------------------------------
 
-##万网（阿里云）域名优势
+## 万网（阿里云）域名优势
 
 &emsp;&emsp;万网（阿里云）已经提供了十多年的服务，万网在产品质量例如稳定性、速度、可靠性、售后服务等方面都排在国内首位。
 
@@ -56,9 +56,9 @@ tag: 经验
 主营业务：域名注册、虚拟主机、企业邮局
 评&emsp;&emsp;价：商务中国也是成立比较早的域名注册商，曾获得过“注册服务机构”称号，优点：域名过户比较快，缺点：解析速度相对较慢。
 
--------------------------------
+--------------------------------------------------------------
 
-##阿里云域名注册流程
+## 阿里云域名注册流程
 购买阿里云域名的步骤也很简单，只需 4 步：
 
   ![这里写图片描述](http://img.blog.csdn.net/20170310212705667?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjIwODA3Mzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -80,6 +80,4 @@ tag: 经验
 
 **特别提醒：**如果您注册的是 .xin 或 .cn 等国内域名，注册成功后还需要提交与域名注册信息相同的资料进行审核，审核成功后域名才能正常使用。[域名实名制认证资料提交方法](https://help.aliyun.com/knowledge_detail/35881.html) 
 
-
-----------------------------
 
