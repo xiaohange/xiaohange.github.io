@@ -1,6 +1,6 @@
 # Basic
 title: 韩俊强的博客
-subtitle: 个人站
+subtitle: 爱折腾 - 乐于折腾 - 享受折腾
 description: 让开发流行起来！
 # 头像里面的标题
 avatarTitle: HaRi
@@ -28,7 +28,7 @@ baidu:
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-84134159-3   
+    id: UA-94074611-1  
     host: auto  
 
 
