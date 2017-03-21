@@ -5,7 +5,7 @@ description: 让开发流行起来！
 # 头像里面的标题
 avatarTitle: HaRi
 # 头像里面的描述
-avatarDesc: iOS / Swift
+avatarDesc: iOS & Swift
 url: "http://xiaohange.io"
 
 # Comment
@@ -15,15 +15,15 @@ comment:
 
 # Social
 social:
-    weibo: 2169425833
+    weibo: 韩俊强的博客
     github: xiaohange
     # twitter: 
     mail: 532167805@qq.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-baidu:
-    id: b2e5ebc1a7bd53eca8c179a4864b3723
+# baidu:
+#     id: b2e5ebc1a7bd53eca8c179a4864b3723
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
@@ -45,11 +45,15 @@ ga:
 permalink: /:year/:month/:title/
 # Format
 highlighter: rouge
-
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
 textColor: #FF0000
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
+# cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
