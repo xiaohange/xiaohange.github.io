@@ -7,12 +7,12 @@ tag: 经验
 ---  
 ![这里写图片描述](http://img.blog.csdn.net/20170309175824764?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjIwODA3Mzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-##<font color=red>前言</font>
+##前言
 &emsp;&emsp;  在工作中，我用过的域名有阿里云、西部数码、美橙互联、华夏、主机屋、明网、ename、godaddy、bluehost、hostgator等等，无论从技术出发，还是从售后服务出发，我个人觉得阿里云域名是最佳选择。
 
 -------------------
 
-## <font color=red>万网（阿里云）域名优势</font>
+##万网（阿里云）域名优势
 
 &emsp;&emsp;万网（阿里云）已经提供了十多年的服务，万网在产品质量例如稳定性、速度、可靠性、售后服务等方面都排在国内首位。
 
@@ -58,7 +58,7 @@ tag: 经验
 
 -------------------------------
 
-## <font color=red>阿里云域名注册流程</font>
+##阿里云域名注册流程
 购买阿里云域名的步骤也很简单，只需 4 步：
 
   ![这里写图片描述](http://img.blog.csdn.net/20170310212705667?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjIwODA3Mzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -82,6 +82,4 @@ tag: 经验
 
 
 ----------------------------
-
-###<font color=red>使用心得</font>
 
