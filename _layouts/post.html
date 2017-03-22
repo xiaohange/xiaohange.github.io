@@ -17,6 +17,9 @@ layout: default
   <section class="post">
     {{ content }}
   </section>
+</article>
+
+{% include new-old.html %}
 
 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
 <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
@@ -31,7 +34,5 @@ var yunManualLoad = true;
 Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
 </script>
 
-</article>
-
-{% include new-old.html %}
 {% include comments.html %}
+
