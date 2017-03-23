@@ -6,6 +6,8 @@ title: 关于我
 <p>
 <p>
 <p>
+![](/images/posts/jekyll/image1.png)
+
 一个 iOS SDK 开发者，喜欢研究一些新技术
 <p>
 目前就职于世界工厂网，2016年度 十大CSDN“博客之星”
@@ -33,8 +35,6 @@ iOS开发者交流群，本群致力于免费共享大牛问答资源，入群�
 <p>
 
 <h3> 微信公众号 </h3>
-
-![](/images/posts/jekyll/image1.png)
 
 2016年开通了微信公众订阅号服务：iOS开发by韩俊强  公众号id：helloworld995<p> 
 每日推送新的技术点或热门技术讨论，动动手扫一扫收获更多干货。
