@@ -3,9 +3,7 @@ layout: page
 title: 关于我 
 ---
 <p>
-<div align=left>
-  ![关于我](/images/avatar.jpg)
-</div>
+<image align = "left">![关于我](/images/avatar.jpg)</image>
 <p>
 一个 iOS SDK 开发者，喜欢研究一些新技术
 <p>
@@ -35,10 +33,8 @@ iOS开发者交流群，本群致力于免费共享大牛问答资源，入群�
 
 <h3> 微信公众号 </h3>
 <p>
-<div align=left>
-  ![微信公众号](/images/wechat_scan.png)
-</div>
-<p>
+<image align = "left">![微信公众号](/images/wechat_scan.png)</image>
+ <p>
 2016年开通了微信公众订阅号服务：iOS开发by韩俊强  公众号id：helloworld995<p> 
 每日推送新的技术点或热门技术讨论，动动手扫一扫收获更多干货。
 <p>
