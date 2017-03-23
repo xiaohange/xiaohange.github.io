@@ -34,7 +34,7 @@ iOS开发者交流群，本群致力于免费共享大牛问答资源，入群�
 
 <h3> 微信公众号 </h3>
 <p>
-![](http://mmbiz.qpic.cn/mmbiz_gif/7hKOib1xMHDIrlUfv1NhyhGp14PWtvNWmlvUEOibNQmbqP8Tibe433ycmK1Qt5nvmnYwBRSYh8ZM6TDKiaozicsTcWA/0?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](/images/posts/jekyll/image1.png)
 <p>
 2016年开通了微信公众订阅号服务：iOS开发by韩俊强  公众号id：helloworld995<p> 
 每日推送新的技术点或热门技术讨论，动动手扫一扫收获更多干货。
