@@ -6,7 +6,6 @@ title: 关于我
 <p>
 <p>
 <p>
-![](/images/posts/jekyll/image1.png)
 
 一个 iOS SDK 开发者，喜欢研究一些新技术
 <p>
