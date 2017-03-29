@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "iOS的Cookie存取看我就够了"
+title: iOS的Cookie存取看我就够了
 date: 2017-03-29 
 description: "当前一些公司为了快速出一款app，很多时候采用UINavigationController+WebView或者NavigationController+UITabbarVC+WebView的方式，这样就不可避免的需要使用cookie与Html5交互，下面讲述几种常用情景下cookie的添加方法"
 tag: iOS开发实战 
---- 
+  
+---
 
 ##
 >当前一些公司为了快速出一款app，很多时候采用UINavigationController+WebView或者NavigationController+UITabbarVC+WebView的方式，这样就不可避免的需要使用cookie与Html5交互，下面讲述几种常用情景下cookie的添加方法：
