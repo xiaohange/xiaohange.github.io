@@ -7,12 +7,11 @@ tag: iOS开发实战
   
 ---
 
-##
 >当前一些公司为了快速出一款app，很多时候采用UINavigationController+WebView或者NavigationController+UITabbarVC+WebView的方式，这样就不可避免的需要使用cookie与Html5交互，下面讲述几种常用情景下cookie的添加方法：
 
-###一. UIWebView：
+### 一. UIWebView：
 
-####工厂类中存储cookie的方法
+工厂类中存储cookie的方法
 
 ```
 + (void)saveCookies {
@@ -40,7 +39,7 @@ tag: iOS开发实战
  UIWebView使用时间较长，只要在cookieStorage中设置了相应的cookie，每次就会自动带上；
     但是这样的弊端是随着与H5的交互增加，Cookie占用的空间越来越大，每次交互都夹带大量的cookie，不仅增加服务器端压力，也浪费用户的流量。比如每次交互都夹带5kb的cookie内容，但是真正用到的只有两三百字节。
 
-###二. WKWebView
+### 二. WKWebView
 
    WKWebView相比于UIWebView：
         速度快了一倍，内存却减少为原来的一半；
@@ -52,7 +51,7 @@ tag: iOS开发实战
 
 
 
-####1.在创建的时候存放到WKUserScript中进行添加cookie
+### 1.在创建的时候存放到WKUserScript中进行添加cookie
 
 ```
     WKWebViewConfiguration *webConfig = [[WKWebViewConfiguration alloc] init];
@@ -84,7 +83,7 @@ tag: iOS开发实战
     wkWebView.UIDelegate = wkWebView;
     wkWebView.navigationDelegate = wkWebView;
 ```
-####2.加载某个url的时候添加cookie
+### 2.加载某个url的时候添加cookie
 
    如果WKWebView在加载url的时候需要添加cookie，需要先手动获取当前NSHTTPCookieStorage中的所有cookie，然后将cookie放到NSMutableURLRequest请求头中
    
@@ -113,7 +112,7 @@ tag: iOS开发实战
     [self loadRequest:request];
 }
 ```
-####3.AFNetworking
+### 3.AFNetworking
 
     AFNetworking存取cookie就比较常见了，话不多说，都在代码里了 
 ```
