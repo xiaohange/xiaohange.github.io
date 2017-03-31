@@ -1,0 +1,2 @@
+export const PREVIEW_MAX_SIZE = 2048.0
+export const PREVIEW_ARTBOARD_PADDING = 60.0
