@@ -66,18 +66,6 @@ nav:
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于我, description: about, url: '/about'}
     
-<div class="hamster-widget">
-        <h3><p>有空帮我喂下仓鼠，<span>谢谢！</span></p></h3>
-        <div class="hamster-textwidget">
-            <p>
-                <object type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/hamster/hamster.swf?" width="280" height="220">
-                    <param name="movie" value="http://cdn.abowman.com/widgets/hamster/hamster.swf?">
-                    <param name="AllowScriptAccess" value="always">
-                    <param name="wmode" value="opaque">
-                </object>
-            </p>
-        </div>
-    </div>
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
