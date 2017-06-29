@@ -7,7 +7,7 @@ description: iOS开发者QQ群：446310206
 avatarTitle: HaRi
 # 头像里面的描述
 avatarDesc: iOS & Swift
-url: "http://xiaohange.io"
+url: "http://blog26.com"
 
 # Comment
 comment:
@@ -58,7 +58,8 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: 博客
+    description: 访问博客
 
 # Navigation buttons in the front page.s
 nav:
