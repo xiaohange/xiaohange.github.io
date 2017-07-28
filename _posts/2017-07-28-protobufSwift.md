@@ -7,6 +7,7 @@ tag: ProtocolBuffers-Swift
 --- 
 
 ### 第一步、配置环境(跟着github 上面配置就行了)
+![](http://img.blog.csdn.net/20170728134535110?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzE4MTAzNTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ### 第二步、把项目从gitHub拉下来(以下都是根据这个github的内容配置的)：https://github.com/alexeyxo/protobuf-swift (使用终端操作)
 
@@ -76,5 +77,5 @@ $ protoc  Test.proto --swift_out="./"
 
 ![](http://img.blog.csdn.net/20170424172927736)
 
-更多惊喜:手机加iOS开发者交流群：①446310206 ②446310206
+<center>更多惊喜:手机加iOS开发者交流群：①446310206 ②446310206</center>
 
