@@ -11,9 +11,9 @@ url: "http://blog26.com"
 
 # Comment
 comment:
-    # disqus: xiaohange
+    disqus: xiaohange
     # duoshuo: xiaohange 
-    yungentie: http://noneless.tk
+    # yungentie: http://noneless.tk
 
 # Social
 social:
