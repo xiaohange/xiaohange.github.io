@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ModelEnd</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="convert json to object-c model and java bean.">
+    <meta property="og:title" content="Model end">
+    <meta property="og:type" content="website">
+    <meta name="baidu-site-verification" content="CwLrAML6lg" />
+    <meta name="google-site-verification" content="-ra-lsPG78cBrd8ebe-tp7w2stw7I6qx21XgB_euRDw" />
+    <meta property="og:url" content="http://modelend.com">
+    <meta property="og:description" content="json to model, convert json to object-c model and java bean.">
+    <meta name="keywords" content="json,model,xml,json2model,xml2model,convert model,object-c model,java bean,java model">
+
+
+    <script src="./res/json2.js"></script>
+    <script src="./res/jsonlint.js"></script>
+    <script src="./res/jsonmodel.js"></script>
+    <link href="./res/style.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="./res/favicon.ico">
+
+    <!--codeMirror-->
+    <link rel="stylesheet" href="./codemirror/docs.css">
+    <link rel="stylesheet" href="./codemirror/codemirror.css">
+    <link rel="stylesheet" href="./codemirror/lint.css">
+    <script src="./codemirror/codemirror.js"></script>
+    <script src="./codemirror/javascript.js"></script>
+    <script src="./codemirror/lint.js"></script>
+    <script src="./codemirror/json-lint.js"></script>
+
+    <script>
+        window.onload = function () {
+            document.getElementById("convertmodel").onclick = function () {
+                jsonModel.objectcModel();
+            },
+            document.getElementById("swiftmodel").onclick = function () {
+                jsonModel.swiftModel();
+            },
+            document.getElementById("convertjavamodel").onclick = function () {
+                jsonModel.javaBean();
+            },
+            document.getElementById("reset").onclick = function () {
+                jsonModel.clearContent();
+                editor_json.setValue("");
+            },
+
+            document.getElementById("download").onclick = function () {
+                jsonModel.downloadFile();
+            };
+
+            prettyPrint();
+        }
+    </script>
+    <meta name="description" content="a free online tool to convert json or xml to an model object" />
+    <meta property="og:title" content="modelend" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://modelend.com" />
+    <meta property="og:description" content="a free online tool to convert json or xml to an model object" />
+    <meta name="robots" content="index" />
+    <meta name="keywords" content="jsonmodel, josn to model, json, model, xml, xml to model, xml2model, convert model" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./res/icon-128.png" rel="apple-touch-icon" sizes="128x128" />
+    <link href="./res/icon-180.png" rel="apple-touch-icon" sizes="180x180" />
+</head>
+<body>
+<div class="bsa-cpc-inline"></div>
+<header>
+    <nav>
+        <div class="dev-tools-logo">
+            M
+        </div>
+        <div class="logo">
+            <h1>ModelEnd <span class="sub-title">- JSON convert to model object</span></h1>
+        </div>
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+      <!--   <ul class="menu">
+            <li class="dropdown"><a href="#"><span class="three-lines"></span><span class="more-dev">More Infomation</span></a>
+          <ul>
+              <li class="jscompress"><a target="_blank" href="https://github.com/y500/iOSDebugDatabase"><strong>iOS debug database</strong><br /><span class="tagline-title">operate iOS databases on web</span></a></li>
+              <li class="jscompress"><a target="_blank" href="https://github.com/y500/json2model"><strong>ModelEnd</strong><br /><span class="tagline-title">sourcecode on github</span></a></li>
+              <li class="keygen"><a target="_blank" href="https://y500.me/"><strong>Blog</strong><br /><span class="tagline-title">my blog</span></a></li>
+          </ul>
+            </li>
+        </ul> -->
+    </nav>
+</header>
+<div class="container" id="contentdiv">
+    <textarea id="code" name="code"></textarea>
+    <script>
+        var editor_json = CodeMirror.fromTextArea(document.getElementById("code"), {
+            lineNumbers: true,
+            mode: "application/json",
+            gutters: ["CodeMirror-lint-markers"],
+            lint: true
+        });
+    </script>
+    <div class="validate">
+        <!--<button id="jsonvalidate" class="model" data-ga="validate">Validate JSON</button>-->
+        <input id="fileName" placeholder="ModelName">
+        <!--<span>-->
+        <!--<label><input name="language" class="select" type="radio" value="objc-c"> Object-c</label>-->
+        <!--<label><input name="language" class="select" type="radio" value="java" /> Java</label>-->
+        <!--</span>-->
+        <button id="convertmodel" class="model">Objc-c Model</button>
+        <button id="swiftmodel" class="model">Swift Model</button>
+        <button id="convertjavamodel" class="model">Java Bean</button>
+        <button id="download" class="model">download file</button>
+        <button id="reset" type="reset">Clear</button>
+        <!--<button id="copy" class="copy">Copy</button>-->
+    </div>
+    <div id="precode"></div>
+    <section id="result-container">
+        <h3>Results</h3>
+        <pre id="result" class="error"></pre>
+    </section>
+    <!-- bsa-cpc -->
+    <div class="bsa-ad">
+        <div class="partner">
+            <p>JSONLint <strong>Partners</strong></p>
+            <sub>Check out their products!</sub>
+        </div>
+        <div class="bsa-cpc"></div>
+    </div>
+    <!-- /bsa-cpc -->
+    <div class="info">
+        <p class="heading">About JSONModel?</p>
+        <p>JSONModel is a tool to translate json directly to Object-c model file or Java Bean file.</p>
+        <p class="heading">Common Errors</p>
+        <ul>
+            <li>Expecting <code>'STRING'</code> - You probably have an extra comma at the end of your collection. Something like <code>{ &quot;a&quot;: &quot;b&quot;, }</code></li>
+            <li>Expecting <code>'STRING'</code>, <code>'NUMBER'</code>, <code>'NULL'</code>, <code>'TRUE'</code>, <code>'FALSE'</code>, <code>'{'</code>, <code>'['</code> - You probably have an extra comma at the end of your list. Something like: <code>[&quot;a&quot;, &quot;b&quot;, ]</code></li>
+            <li>Enclosing your collection keys in quotes. Proper format for a collection is <code>{ &quot;key&quot;: &quot;value&quot; }</code></li>
+            <li>Make sure you follow <a href="http://www.json.org/" target="_blank">JSON's syntax</a> properly. For example, always use double quotes, always quotify your keys, and remove all callback functions.</li>
+        </ul>
+        <p class="heading">Credits</p>
+        <p>Maintained by CircleCell. Thanks to <a href="http://www.modelend.com/" target="_blank">JSONLint</a> of JSON and JS Lint, and <a href="http://zaa.ch/" target="_blank">Zach Carter</a>, who built a <a href="https://github.com/zaach/jsonlint">pure JavaScript implementation</a>.</p>
+    </div>
+    <footer>
+        &copy; 2018 blog26.com     版权所有<br>豫ICP备45318038号
+        <script src="https://s13.cnzz.com/z_stat.php?id=1265361730&web_id=1265361730" language="JavaScript"></script>
+    </footer>
+</div>
+<script src="./res/jszip.js"></script>
+<script src="./codemirror/FileSaver.js"></script>
+
+<script src="./codepretty/prettify.js"></script>
+<link type="text/css" rel="stylesheet" href="./codepretty/prettify.css">
+</body>
+</html>
